@@ -1,0 +1,39 @@
+Exercício 1.1 Quais são os 3 tipos de códigos básicos de uma página de hipertexto? Explique para
+que serve cada um dos tipos. 
+R: HTML: é a responsável
+por definir quais elementos serão exibidos em uma determinada página.
+
+CSS: é responsável por definir como os elementos de
+conteúdo serão mostrados. As definições de estilos CSS é que nos permitem mudar a
+forma como um conteúdo é exibido, ou seja, o visual do conteúdo.
+
+Javascript: Ele desempenha dois papéis em uma página de hipertexto. O primeiro deles é a modificação de conteúdo mediante a
+ocorrência de algum evento. O segundo papel desempenhado pelo Javascript é o de carregar conteúdo do servidor web em segundo
+plano, permitindo atualizar partes da página sem a necessidade de requisitar toda a página novamente.
+
+
+
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de
+hipertexto? Justifique sua resposta.
+R: Normalmente, uma página contém apenas 1 arquivo HTML, mas pode estar associada a vários arquivos
+CSS e a vários arquivos Javascript. Mas por mais que não tenha
+esse limite específico, é importante ficar atento a organização e optimização do código.
+
+
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos
+Javascript e CSS? Justifique sua resposta.
+R: Sim, é possivel, normalmente é usado as tags <link> e <script>
+para vincular arquivos CSS e Javascript em diferentes páginas HTML.
+Fazendo com que ocorra padronização e reutilização de código.
+
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica,
+pontuando as vantagens e desvantagens de cada um dos dois tipos.
+R: Quando as páginas de um site são totalmente compostas por arquivos prontos, dizemos que o site é estático. Quando as páginas (ao menos algumas delas) são geradas por uma aplicação web, dizemos
+que o site é dinâmico. Páginas estáticas têm conteúdo fixo, são rápidas e simples, mas carecem de dinamismo. Páginas dinâmicas oferecem interatividade e atualizações automáticas, mas podem ser mais complexas e exigir maior processamento e custos de hospedagem.
+
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
+estática?
+R: Inicialmente o navegador do cliente envia uma solicitação ao servidor, o DNS traduz o nome do domínio para um endereço IP e estabelece uma conexão. O servidor processa a requisição e localiza o arquivo estático correspondente. Após isso o navegador renderiza a página.
