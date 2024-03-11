@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7.4</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+
+    <form action="processar.php" method="post">
+      
+        <div>
+            <label for="idade">Idade</label>
+            <input type="text" name="idade" id="idade" required>
+        </div>
+
+        <div>
+            <input type="radio" name="genero" id="" value="s" required><label for="genero">Masculino</label><br>
+            <input type="radio" name="genero" id="" value="s" required><label for="genero">Feminino</label><br>
+            <input type="radio" name="genero" id="" value="s" required><label for="genero">Outros</label><br>
+        </div>
+
+        <div>
+            <button type="submit">Salvar</button>
+        </div>
+        
+    </form>
+</body>
+</html>
