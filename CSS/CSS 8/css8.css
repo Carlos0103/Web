@@ -1,0 +1,19 @@
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: medium;
+}
+
+#titulo {
+    font-size: large;
+}
+
+.destaque {
+    font-size: small;
+}
+
+.container p {
+   font-size: xx-large;
+}
