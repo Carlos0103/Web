@@ -1,0 +1,29 @@
+.container-flex {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    background-color: lightcyan;
+    justify-content: center;
+}
+
+
+.item {
+    flex-grow: 1;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.item2 {
+    flex-grow: 1;
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.item2:nth-child(3) {
+    flex-grow: 2; 
+}
